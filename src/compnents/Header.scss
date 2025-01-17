@@ -19,3 +19,9 @@ header {
     font-weight: d.$font-thick;
   }
 }
+
+@media (max-width: d.$BREAKPOINTS-mobile) {
+  header h1 {
+    font-size: calc(20rem / 16);
+  }
+}
